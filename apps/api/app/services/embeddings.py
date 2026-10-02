@@ -61,6 +61,4 @@ class Embedder:
         return np.asarray(
             [self._encode_one(text) for text in texts],
             dtype=np.float32,
-        )git add apps/api/requirements.txt apps/api/app/services/embeddings.py
-git commit -m "reduce backend memory usage for Render"
-git push
+        )
