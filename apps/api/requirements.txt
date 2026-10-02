@@ -3,6 +3,7 @@ uvicorn==0.30.6
 pydantic==2.11.4
 httpx==0.28.1
 numpy==2.2.5
+qdrant-client==1.14.2
 openai==1.76.2
 python-dotenv==1.1.0
-sentence-transformers==3.4.1
+networkx==3.4.2
